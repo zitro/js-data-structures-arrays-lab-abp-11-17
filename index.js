@@ -32,5 +32,5 @@ etsArr =  drivers.slice(0, drivers.length - 1);;
 }
 
 function removeFirstDriver(){
-  drivers.slice(1);
+  etsArr2 = drivers.slice(1);
 }
