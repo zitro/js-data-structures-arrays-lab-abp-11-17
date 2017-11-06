@@ -1,4 +1,4 @@
 // Write your solution here!
 
 
-array drivers['Milo', 'Otis', 'Garfield'];
+let drivers = ['Milo', 'Otis', 'Garfield'];
