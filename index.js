@@ -19,18 +19,18 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
 
-//function appendDriver(name){
-//  drivers.split(-1, 0, name);
-//}
+function appendDriver(name){
+const label1 =  drivers.split(-1, 0, name);
+}
 
-//function prependDriver(name){
-  //drivers.split(0, 0, name);
-//}
+function prependDriver(name){
+const label2 = drivers.split(0, 0, name);
+}
 
 function removeLastDriver(){
-etsArr =  drivers.slice(0, drivers.length - 1);;
+const etsArr =  drivers.slice(0, drivers.length - 1);;
 }
 
 function removeFirstDriver(){
-  etsArr2 = drivers.slice(1);
+const etsArr2 = drivers.slice(1);
 }
