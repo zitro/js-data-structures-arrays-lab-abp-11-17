@@ -30,5 +30,5 @@ function removeLastDriver(){
   const newDrivers =[...drivers, name];
 }
 function removeFirstDriver(){
-  drivers.slice(0);
+  drivers.slice(1);
 }
